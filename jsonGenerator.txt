@@ -1,0 +1,10 @@
+{"foodles": 
+repeat(100, {
+  "userId": index(0),
+  "firstName": firstname(),
+  "lastName": lastname(),
+  "city": city(),
+  "price": random(50, 100),
+  "foodType": choice('Italian', 'Breakfest', 'Meat')
+})}
+
